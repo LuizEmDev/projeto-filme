@@ -3,6 +3,18 @@
     padding: 0px;
     margin: 0px;
 }
+@font-face {
+    font-family: 'Orbitron';
+    src: url(fontes/Orbitron-VariableFont_wght.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Exo';
+    src: url(fontes/Exo2-VariableFont_wght.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(fontes/Roboto-VariableFont_wdth\,wght.ttf);
+}
 
 
 
@@ -23,6 +35,7 @@ header{
 }
 
 header > h1{
+    font-family: 'Orbitron', sans-serif;
     text-align: center;
     font-size: 2.8em;
     font-variant: small-caps;
@@ -59,18 +72,74 @@ nav > a:hover{
 }
 main{
     background-color: lightblue;
+    min-width:200px;
+    max-width: 1000px;
+    margin: auto;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 10px;
 
 }
 
 main h1{
-text-align: center;
-    font-size: 2em;
+    font-family: 'Exo', sans-serif;
+    margin: 10px;
+font-size: 2em;
+font-variant: small-caps;
+background-image: linear-gradient(to right, rgb(64, 182, 221), transparent);
 }
+main h2{
+    text-align: center;
+}
+
 main p{
+    font-family: 'Roboto',sans-serif;
     text-align: justify;
     text-indent: 20px;
+    padding: 10px;
+    font-size: 1.5em;
+    
+    
 
 }
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+main a:hover{
+    text-decoration: underline;
+    
+}
+picture > img{
+    display: block;
+    margin: auto;
+    width: 98%;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    
+    
+}
+footer{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+span{
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+footer a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
 
 
 
